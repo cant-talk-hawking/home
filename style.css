@@ -1,5 +1,5 @@
 .header {
-  font-size: 3rem;
+  font-size: 7rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,11 +12,13 @@
   justify-content: center;
   align-items: center;
 }
-body{
+body {
 	/* This image will be displayed fullscreen */
 	background: url('http://sci.esa.int/science-e-media/img/69/heic1317a.jpg') no-repeat fixed center;
 	height: 100vh;
   width: 100vw;
   background-size: cover;
-  overflow: hidden;
+}
+html {
+  color: white;
 }

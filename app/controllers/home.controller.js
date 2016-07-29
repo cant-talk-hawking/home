@@ -1,11 +1,11 @@
 /*eslint-disable*/
-var app = angular.module('hawkingApp', []);
+var app = angular.module('hawkingApp');
   app.controller('HomeController', function ($scope) {
-      $scope.test="test";
+      $scope.test="QUOTE";
 
 
-        var random = Math.floor(Math.random() * 25);
-        $scope.random = random.quote;
+        // var random = Math.floor(Math.random() * 25);
+        // $scope.random = random.quote;
 
 
   });
