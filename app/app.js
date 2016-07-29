@@ -12,5 +12,10 @@ function config($stateProvider, $urlRouterProvider) {
     url: '/home',
     controller: 'HomeController',
     templateUrl: 'app/views/home.html'
+  })
+  .state('donut', {
+    url: '/donut',
+    controller: 'HomeController',
+    templateUrl: 'app/views/donut.html'
   });
 }
